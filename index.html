@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes">
-    <title>My 12 Spots</title>
+    <title>Kanazawa Spots</title>
     <!-- PWA マニフェスト（data URI埋め込み） -->
-    <!-- ここを編集：アプリ名、テーマカラー、アイコンを変更できます -->
-    <link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22My%2012%20Spots%22%2C%22short_name%22%3A%22Spots%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23121212%22%2C%22theme_color%22%3A%22%23b88b4a%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage%2Fsvg%2Bxml%2C%253Csvg%2520xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%2520viewBox%3D%270%200%20100%20100%27%253E%253Crect%2520width%3D%27100%27%2520height%3D%27100%27%2520rx%3D%2720%27%2520fill%3D%27%23322f2b%27%2F%253E%253Ctext%2520x%3D%2750%27%2520y%3D%2770%27%2520font-size%3D%2770%27%2520text-anchor%3D%27middle%27%2520fill%3D%27%23e3b37c%27%2520font-family%3D%27system-ui%2C%2520sans-serif%27%253E%E2%9C%8C%EF%B8%8F%253C%2Ftext%253E%253C%2Fsvg%253E%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%7D%2C%7B%22src%22%3A%22data%3Aimage%2Fsvg%2Bxml%2C%253Csvg%2520xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%2520viewBox%3D%270%200%20512%20512%27%253E%253Crect%2520width%3D%27512%27%2520height%3D%27512%27%2520rx%3D%27100%27%2520fill%3D%27%23322f2b%27%2F%253E%253Ctext%2520x%3D%27256%27%2520y%3D%27350%27%2520font-size%3D%27350%27%2520text-anchor%3D%27middle%27%2520fill%3D%27%23e3b37c%27%2520font-family%3D%27system-ui%2C%2520sans-serif%27%253E%E2%9C%8C%EF%B8%8F%253C%2Ftext%253E%253C%2Fsvg%253E%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%7D%5D%7D">
-    <!-- アイコン（ホーム画面用）上と同じ画像を使用 -->
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23322f2b'/%3E%3Ctext x='50' y='70' font-size='70' text-anchor='middle' fill='%23e3b37c' font-family='system-ui, sans-serif'%3E✌️%3C/text%3E%3C/svg%3E">
-    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23322f2b'/%3E%3Ctext x='50' y='70' font-size='70' text-anchor='middle' fill='%23e3b37c' font-family='system-ui, sans-serif'%3E✌️%3C/text%3E%3C/svg%3E">
+    <link rel="manifest" href="data:application/manifest+json,%7B%22name%22%3A%22Kanazawa%20Spots%22%2C%22short_name%22%3A%22Kanazawa%22%2C%22start_url%22%3A%22.%22%2C%22display%22%3A%22standalone%22%2C%22background_color%22%3A%22%23121212%22%2C%22theme_color%22%3A%22%23b88b4a%22%2C%22icons%22%3A%5B%7B%22src%22%3A%22data%3Aimage%2Fsvg%2Bxml%2C%253Csvg%2520xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%2520viewBox%3D%270%200%20100%20100%27%253E%253Crect%2520width%3D%27100%27%2520height%3D%27100%27%2520rx%3D%2720%27%2520fill%3D%27%23322f2b%27%2F%253E%253Ctext%2520x%3D%2750%27%2520y%3D%2770%27%2520font-size%3D%2770%27%2520text-anchor%3D%27middle%27%2520fill%3D%27%23e3b37c%27%2520font-family%3D%27system-ui%2C%2520sans-serif%27%253E%E9%87%91%253C%2Ftext%253E%253C%2Fsvg%253E%22%2C%22sizes%22%3A%22192x192%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%7D%2C%7B%22src%22%3A%22data%3Aimage%2Fsvg%2Bxml%2C%253Csvg%2520xmlns%3D%27http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%27%2520viewBox%3D%270%200%20512%20512%27%253E%253Crect%2520width%3D%27512%27%2520height%3D%27512%27%2520rx%3D%27100%27%2520fill%3D%27%23322f2b%27%2F%253E%253Ctext%2520x%3D%27256%27%2520y%3D%27350%27%2520font-size%3D%27350%27%2520text-anchor%3D%27middle%27%2520fill%3D%27%23e3b37c%27%2520font-family%3D%27system-ui%2C%2520sans-serif%27%253E%E9%87%91%253C%2Ftext%253E%253C%2Fsvg%253E%22%2C%22sizes%22%3A%22512x512%22%2C%22type%22%3A%22image%2Fsvg%2Bxml%22%7D%5D%7D">
+    <!-- アイコン -->
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23322f2b'/%3E%3Ctext x='50' y='70' font-size='70' text-anchor='middle' fill='%23e3b37c' font-family='system-ui, sans-serif'%3E金%3C/text%3E%3C/svg%3E">
+    <link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%23322f2b'/%3E%3Ctext x='50' y='70' font-size='70' text-anchor='middle' fill='%23e3b37c' font-family='system-ui, sans-serif'%3E金%3C/text%3E%3C/svg%3E">
 
     <style>
-        /* ---------- 基本スタイル（お好みで調整） ---------- */
+        /* ---------- 基本スタイル ---------- */
         * {
             margin: 0;
             padding: 0;
@@ -20,7 +19,7 @@
             font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
         }
         body {
-            background-color: #121212; /* ダークモード背景 */
+            background-color: #121212;
             color: #e0e0e0;
             transition: background-color 0.2s, color 0.2s;
             min-height: 100vh;
@@ -90,7 +89,6 @@
         .btn.theme::before { content: "🌙 "; }
         body.light-mode .btn.theme::before { content: "☀️ "; }
 
-        /* カード一覧 */
         .spots-list {
             display: flex;
             flex-direction: column;
@@ -110,7 +108,6 @@
             border-left-color: #a07d4f;
             box-shadow: 0 4px 12px rgba(0,0,0,0.1);
         }
-        /* 画像／動画エリア */
         .card .media {
             width: 100%;
             height: 180px;
@@ -163,7 +160,6 @@
         .card .link-button:active {
             transform: scale(0.96);
         }
-        /* フッター */
         .footer {
             margin-top: 30px;
             text-align: center;
@@ -206,10 +202,8 @@
 <body class="dark-mode">
     <div class="container">
         <div class="header">
-            <!-- ここを編集：アプリのタイトル（言語切替ありの場合は下記参照） -->
-            <h1 id="main-title">My 12 Spots</h1>
+            <h1 id="main-title">Kanazawa Spots</h1>
             <div class="button-group">
-                <!-- 言語切替ボタン（不要なら削除、またはコメントアウト） -->
                 <button class="btn lang" id="lang-toggle">🇬🇧 EN</button>
                 <button class="btn theme" id="theme-toggle"></button>
             </div>
@@ -218,160 +212,176 @@
         <div class="spots-list" id="spots-container"></div>
 
         <div class="footer">
-            <!-- ここを編集：連絡先テキストやメールアドレス -->
-            <div>Contact us</div>
-            <a href="mailto:your@email.com">your@email.com</a>
+            <div id="contact-text">Contact us</div>
+            <a href="mailto:mementomorikatsu@gmail.com">mementomorikatsu@gmail.com</a>
             <div class="note">📧 タップでメール起動</div>
         </div>
     </div>
 
     <script>
         (function() {
-            // ========== ここを編集：あなたの12項目データ ==========
+            // ========== ここを編集：あなたの12項目データ（日英対応） ==========
             // 各項目は以下のプロパティを持ちます：
-            //   name        : 項目の名前（必須）
-            //   description : 説明文（必須）
-            //   mediaUrl    : 画像または動画のURL（必須）※画像推奨、動画の場合は<video>に対応するにはコード修正が必要（後述）
-            //   linkUrl     : 外部リンク先URL（必須／空文字ならボタンを非表示にできます）
-            // 必要に応じてフィールドを追加・削除してください。
+            //   nameEn  : 英語名
+            //   descEn  : 英語説明文
+            //   nameJp  : 日本語名
+            //   descJp  : 日本語説明文
+            //   mediaUrl: 画像または動画のURL（必須）
+            //   linkUrl : 外部リンク先URL（空文字ならボタンを非表示）
             const spotsData = [
                 {
-                    name: "Spot 1",
-                    description: "This is the first amazing spot. You can write a short description here.",
-                    mediaUrl: "https://picsum.photos/id/101/300/200",   // 画像URL（差し替え必須）
-                    linkUrl: "https://example.com/spot1"               // 外部リンク
+                    nameEn: "Kenroku-en Garden",
+                    descEn: "One of Japan's three most celebrated landscape gardens. Features a large pond, artificial hills, and tea houses. Famous for winter yukitsuri (snow hanging) ropes.",
+                    nameJp: "兼六園",
+                    descJp: "日本三名園の一つに数えられる大名庭園。広大な敷地には池や山、茶亭が点在し、四季折々の風景が楽しめます。冬の雪吊りが特に有名です。",
+                    mediaUrl: "https://picsum.photos/id/101/300/200",
+                    linkUrl: "https://www.pref.ishikawa.jp/siro-niwa/kenrokuen/"
                 },
                 {
-                    name: "Spot 2",
-                    description: "A wonderful place with great views. Don't miss it!",
+                    nameEn: "Kanazawa Castle Park",
+                    descEn: "Park on the grounds of former Kanazawa Castle, symbol of the Kaga domain. Restored structures like the Hishi Yagura and Gojukken Nagaya convey the Edo-period atmosphere.",
+                    nameJp: "金沢城公園",
+                    descJp: "加賀百万石の象徴・金沢城の跡地に整備された公園。再現された菱櫓・五十間長屋・橋爪門などから当時の姿を感じられます。",
                     mediaUrl: "https://picsum.photos/id/102/300/200",
-                    linkUrl: "https://example.com/spot2"
+                    linkUrl: "https://www.pref.ishikawa.jp/siro-niwa/kanazawajyo/"
                 },
                 {
-                    name: "Spot 3",
-                    description: "Historical site with deep cultural significance.",
+                    nameEn: "Higashi Chaya District",
+                    descEn: "Largest chaya (teahouse) district in Kanazawa with stone-paved streets and traditional wooden buildings. A designated Preservation District with an active geisha culture.",
+                    nameJp: "ひがし茶屋街",
+                    descJp: "石畳の道と趣ある木造茶屋建築が並ぶ、金沢最大の茶屋街。重要伝統的建造物群保存地区に選定され、現在もお茶屋文化が息づいています。",
                     mediaUrl: "https://picsum.photos/id/103/300/200",
-                    linkUrl: "https://example.com/spot3"
+                    linkUrl: "https://www.kanazawa-kankoukyoukai.or.jp/spot/10301"
                 },
                 {
-                    name: "Spot 4",
-                    description: "Nature at its best. Perfect for photography.",
+                    nameEn: "Nagamachi Samurai District",
+                    descEn: "Historic district where Kaga samurai once lived. Quiet streets with earthen walls and canals. Visit the Nomura-ke house to see a samurai residence and garden.",
+                    nameJp: "長町武家屋敷跡",
+                    descJp: "加賀藩の武士が暮らした地区。土塀と水路の落ち着いた街並みが続きます。公開されている野村家では当時の武家屋敷や美しい庭園を見学できます。",
                     mediaUrl: "https://picsum.photos/id/104/300/200",
-                    linkUrl: "https://example.com/spot4"
+                    linkUrl: "https://www.nomurake.com/"
                 },
                 {
-                    name: "Spot 5",
-                    description: "Local cuisine and vibrant atmosphere.",
+                    nameEn: "Omicho Market",
+                    descEn: "Kanazawa's kitchen with over 300 years of history. About 170 shops sell fresh seafood, vegetables, and processed foods. Enjoy eat-as-you-walk and kaisendon.",
+                    nameJp: "近江町市場",
+                    descJp: "約300年の歴史を持つ「金沢の台所」。鮮魚・野菜・加工食品など約170店が集まり、食べ歩きや海鮮丼も楽しめます。",
                     mediaUrl: "https://picsum.photos/id/105/300/200",
-                    linkUrl: "https://example.com/spot5"
+                    linkUrl: "https://ohmicho-ichiba.com/"
                 },
                 {
-                    name: "Spot 6",
-                    description: "Art and culture hub. Many galleries nearby.",
+                    nameEn: "21st Century Museum",
+                    descEn: "Contemporary art museum with a distinctive circular glass design. Interactive exhibits like the 'Swimming Pool' are popular. Free community areas too.",
+                    nameJp: "21世紀美術館",
+                    descJp: "円形ガラス張りの現代美術館。代表作「スイミング・プール」など作品と対話できる体験が人気です。誰でも気軽に現代美術に触れられます。",
                     mediaUrl: "https://picsum.photos/id/106/300/200",
-                    linkUrl: "https://example.com/spot6"
+                    linkUrl: "https://www.kanazawa21.jp/"
                 },
                 {
-                    name: "Spot 7",
-                    description: "Panoramic viewpoint, especially beautiful at sunset.",
+                    nameEn: "Kanazawa Station",
+                    descEn: "The city's gateway, featuring the stunning Tsuzumi-mon gate and the glass 'Motenasu Dome'. A fusion of tradition and modernity with many shops and restaurants.",
+                    nameJp: "金沢駅",
+                    descJp: "伝統と現代を融合した「鼓門」とガラス張りの大屋根「もてなしドーム」が出迎えます。駅構内には土産店やレストランも豊富です。",
                     mediaUrl: "https://picsum.photos/id/107/300/200",
-                    linkUrl: "https://example.com/spot7"
+                    linkUrl: "https://www.kanazawa-kankoukyoukai.or.jp/spot/10000"
                 },
                 {
-                    name: "Spot 8",
-                    description: "Traditional architecture and quiet streets.",
+                    nameEn: "Kazuemachi Chaya District",
+                    descEn: "Quiet, picturesque chaya district along the Asano River. Less flashy than Higashi, but especially atmospheric in the evening when lanterns light up.",
+                    nameJp: "主計町茶屋街",
+                    descJp: "浅野川沿いに佇む静かな茶屋街。夕暮れ時にあかりが灯ると情緒あふれる雰囲気に。ひがし茶屋街とは異なる落ち着きがあります。",
                     mediaUrl: "https://picsum.photos/id/108/300/200",
-                    linkUrl: "https://example.com/spot8"
+                    linkUrl: "https://www.kanazawa-kankoukyoukai.or.jp/spot/10303"
                 },
                 {
-                    name: "Spot 9",
-                    description: "Famous for its annual festival.",
+                    nameEn: "Nishi Chaya District",
+                    descEn: "One of the three major chaya districts in Kanazawa. Quieter than Higashi, offering a glimpse of local life alongside teahouses.",
+                    nameJp: "にし茶屋街",
+                    descJp: "金沢三茶屋街の一つ。ひがし茶屋街に比べて静かで、地元の人々の生活感が感じられるエリアです。",
                     mediaUrl: "https://picsum.photos/id/109/300/200",
-                    linkUrl: "https://example.com/spot9"
+                    linkUrl: "https://www.kanazawa-kankoukyoukai.or.jp/spot/10302"
                 },
                 {
-                    name: "Spot 10",
-                    description: "Hidden gem away from crowds.",
+                    nameEn: "Myoryuji (Ninja Temple)",
+                    descEn: "Ninja Temple nickname comes from its maze-like interior with hidden rooms, traps, and stairs. Reservations required. Not actually ninja-related but full of tricks.",
+                    nameJp: "妙立寺（忍者寺）",
+                    descJp: "迷路のような複雑な内部構造、数多くの隠し部屋や落とし穴から「忍者寺」の異名を持ちます。見学は完全予約制。",
                     mediaUrl: "https://picsum.photos/id/110/300/200",
-                    linkUrl: "https://example.com/spot10"
+                    linkUrl: "http://www.myouryuji.or.jp/"
                 },
                 {
-                    name: "Spot 11",
-                    description: "Interactive museum for all ages.",
+                    nameEn: "Kanazawa Craft Workshop",
+                    descEn: "Experience traditional crafts like gold-leaf application and Kaga Yuzen dyeing. Professional guidance helps you create your own unique souvenir.",
+                    nameJp: "金沢職人大学校",
+                    descJp: "金箔貼りや加賀友禅染色など、伝統工芸を気軽に体験できる施設。専門指導のもと自分だけの作品を作れます。",
                     mediaUrl: "https://picsum.photos/id/111/300/200",
-                    linkUrl: "https://example.com/spot11"
+                    linkUrl: "https://www.kanazawa-kougei.com/"
                 },
                 {
-                    name: "Spot 12",
-                    description: "Relaxing park with seasonal flowers.",
+                    nameEn: "Mount Utatsu",
+                    descEn: "Low mountain within walking distance from Higashi Chaya. Observation deck offers panoramic views of the city. Cherry blossom spot in spring.",
+                    nameJp: "卯辰山",
+                    descJp: "ひがし茶屋街から徒歩圏内の低山。山頂展望台から金沢の街並みを一望。春は桜の名所でハイキングにも最適です。",
                     mediaUrl: "https://picsum.photos/id/112/300/200",
-                    linkUrl: "https://example.com/spot12"
+                    linkUrl: "https://www.kanazawa-kankoukyoukai.or.jp/spot/10010"
                 }
             ];
 
-            // 言語切替を使う場合の多言語データは別途用意できます（例として英語/日本語）
-            // 下記の multilingual を true にすると、spotsDataEn / spotsDataJp を使うように切り替わります。
-            const multilingual = false;   // trueにすると2言語対応、falseなら上記spotsDataを単一言語として表示
-            // もし multilingual = true にする場合は、以下の2配列も編集してください
-            const spotsDataEn = [ /* 英語データ */ ];
-            const spotsDataJp = [ /* 日本語データ */ ];
-
             // ========== ここまで編集 ==========
 
-            // 現在の言語 (en/jp)  multilingualがfalseの場合は'en'固定として扱う
+            // 現在の言語 (en / jp)  デフォルトは英語
             let currentLang = 'en';
             let currentTheme = 'dark';
             const container = document.getElementById('spots-container');
             const titleEl = document.getElementById('main-title');
             const langBtn = document.getElementById('lang-toggle');
             const themeBtn = document.getElementById('theme-toggle');
+            const contactText = document.getElementById('contact-text');
             const body = document.body;
 
-            // 表示データを取得（多言語対応）
-            function getCurrentData() {
-                if (!multilingual) {
-                    return spotsData;  // 単一言語用データ
-                } else {
-                    return currentLang === 'en' ? spotsDataEn : spotsDataJp;
-                }
-            }
+            // ボタンラベル（言語別）
+            const buttonLabel = {
+                en: "More info",
+                jp: "詳しくはこちら"
+            };
 
-            // カード描画
+            // タイトルとコンタクトテキスト
+            const titleText = {
+                en: "Kanazawa Spots",
+                jp: "金沢観光名所"
+            };
+            const contactLabel = {
+                en: "Contact us",
+                jp: "お問い合わせ"
+            };
+
             function renderSpots() {
-                const data = getCurrentData();
-                // タイトル（多言語の場合切り替え）
-                if (multilingual) {
-                    titleEl.textContent = currentLang === 'en' ? 'My 12 Spots' : '私の12スポット';
-                } else {
-                    titleEl.textContent = 'My 12 Spots';   // ここも変更可
-                }
+                // タイトルとフッター文字を更新
+                titleEl.textContent = titleText[currentLang];
+                contactText.textContent = contactLabel[currentLang];
 
                 let html = '';
-                data.forEach(item => {
-                    // linkUrlが空ならボタンを表示しない
-                    const buttonHtml = item.linkUrl ? `<a class="link-button" href="${item.linkUrl}" target="_blank" rel="noopener noreferrer">詳しくはこちら</a>` : '';
+                spotsData.forEach(item => {
+                    const name = currentLang === 'en' ? item.nameEn : item.nameJp;
+                    const desc = currentLang === 'en' ? item.descEn : item.descJp;
+                    const linkText = buttonLabel[currentLang];
+                    const buttonHtml = item.linkUrl ? `<a class="link-button" href="${item.linkUrl}" target="_blank" rel="noopener noreferrer">${linkText}</a>` : '';
 
                     html += `
                         <div class="card">
-                            <img class="media" src="${item.mediaUrl}" alt="${item.name}" loading="lazy">
-                            <h2>${item.name}</h2>
-                            <p>${item.description}</p>
+                            <img class="media" src="${item.mediaUrl}" alt="${name}" loading="lazy">
+                            <h2>${name}</h2>
+                            <p>${desc}</p>
                             ${buttonHtml}
                         </div>
                     `;
                 });
                 container.innerHTML = html;
 
-                // 言語ボタンのテキスト更新（多言語時のみ）
-                if (multilingual) {
-                    langBtn.innerHTML = currentLang === 'en' ? '🇬🇧 EN' : '🇯🇵 JP';
-                } else {
-                    // 単一言語の場合は言語ボタンを非表示にしても良い
-                    if (langBtn) langBtn.style.display = 'none';
-                }
+                // 言語ボタンのテキスト更新
+                langBtn.innerHTML = currentLang === 'en' ? '🇬🇧 EN' : '🇯🇵 JP';
             }
 
-            // テーマ切替
             function toggleTheme() {
                 if (currentTheme === 'dark') {
                     body.classList.remove('dark-mode');
@@ -384,21 +394,18 @@
                 }
             }
 
-            // 言語切替
             function toggleLang() {
-                if (!multilingual) return;
                 currentLang = currentLang === 'en' ? 'jp' : 'en';
                 renderSpots();
             }
 
-            // イベント登録
-            if (langBtn) langBtn.addEventListener('click', toggleLang);
+            langBtn.addEventListener('click', toggleLang);
             themeBtn.addEventListener('click', toggleTheme);
 
             // 初期描画
             renderSpots();
 
-            // PWA: サービスワーカー登録（オフライン対応）
+            // PWA: サービスワーカー登録
             if ('serviceWorker' in navigator) {
                 window.addEventListener('load', () => {
                     navigator.serviceWorker.register('sw.js')
@@ -406,14 +413,6 @@
                         .catch(err => console.log('SW registration failed: ', err));
                 });
             }
-
-            // ========== 応用ヒント ==========
-            // 1. 動画を表示したい場合：
-            //    mediaUrl に動画ファイル（.mp4など）のURLを指定し、<img> を <video controls> に変えてください。
-            //    例： <video class="media" src="${item.mediaUrl}" controls></video>
-            // 2. ボタンのテキストを変更したい場合は、上記の buttonHtml 内の「詳しくはこちら」を変えてください。
-            // 3. カード全体をリンクにしたい場合は、<div class="card"> を <a> で囲み、hrefを設定します（スタイル調整必要）。
-            // 4. テーマカラーやグラデーションはCSS内の値を直接変更してください。
         })();
     </script>
 </body>
