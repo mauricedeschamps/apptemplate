@@ -1,7 +1,4 @@
-// キャッシュ名（バージョン管理用）
-const CACHE_NAME = 'my12spots-v1';
-
-// インストール時にキャッシュするファイル（必要に応じて追加）
+const CACHE_NAME = 'kanazawa-guide-v1';
 const urlsToCache = [
   './',
   './index.html'
